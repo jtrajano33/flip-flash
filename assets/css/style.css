@@ -12,6 +12,7 @@ body{
 	margin-top: 10vh;
 }
 
+
 .info{
 	padding-top:30px;
 }
@@ -28,7 +29,7 @@ li{
 }
 
 .nav-link{
-	padding: 30px;
+	padding:20px 70px;
 }
 
 h1{
@@ -91,3 +92,81 @@ a:hover{
 	display: inline;
 }
 
+.aha{
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/*media queries*/
+
+
+/*Small devices*/
+@media only screen and (max-width: 450px){ 
+	h1{
+		font-size: 50px;
+		text-align: center;
+		margin-top: 10px;
+		letter-spacing: 5px;
+	}
+
+	h2{
+		font-size: 15px;
+		text-align: center;
+	}
+	.portfolio{
+		font-size: 30px;
+		letter-spacing: 2px;
+		border: 1px solid white;
+		padding: 15px 25%;
+		text-align: center;
+
+	}
+
+	.project{
+		margin-top: 3vh;
+	}
+
+	#icon{
+		position: relative;
+		top: -50px;
+		left: -120px;
+	}
+
+	a:hover{
+	color: #08fdd8;
+	transform: scale(1);
+	}
+
+	.nav-link{
+		padding:10px 100px;
+	}
+
+	.nav{
+		float:right;
+		margin-top: 5px;
+	}
+}
+
+/*tablets*/
+@media only screen and (max-width: 768px){ 
+	.project{
+		margin-top: 3vh;
+	}
+
+	.nav-link{
+		padding:20px 20px;
+	}
+
+}
+
+/*Large devices*/
+@media only screen and (max-width: 992px){
+ }
