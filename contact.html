@@ -9,13 +9,14 @@
 
 	<title>Flipflash</title>
 
-		<!-- bootstrap css -->
+	<!-- bootstrap css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
-	
+	<!-- external css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style2.css">
 
 	<!-- google fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Ubuntu" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Dhurjati|Numans" rel="stylesheet">
 
 	<!-- fontawesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -23,13 +24,10 @@
 	<!-- animate.css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/animate2.css">
 
-	<!-- external css -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style2.css">
-
 </head>
 
 
-<body class="pad1">
+<body>
 
 		<nav class="navbar navbar-expand-lg navbar-dark color m-auto">
 			<a class="navbar-brand" href="index2.html" id="logo"><i class="fas fa-american-sign-language-interpreting"></i> FlipFlash</a>
@@ -65,60 +63,53 @@
 			</div>
 		</nav> <!-- nav -->
 
+	<div class="container" id="pad">
 
 
+		<div class="row" id="row-below">
 
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-12 intro">
-
-				<h1>Introducing Flip Flash</h1>
-				<p>Say Goodbye to your boring flash card.
-				Memorizing shouldn't always be on plain white paper</p>
-				</div>
-			</div>
-		</div>
-
-
-	<div class="container-fluid">
-		<div class="row hiragana">	
-			<div class="col-12 col-sm-12 col-md-12 col-lg-4 percard">
-				<div class="learn m-auto text-white">
-					<div class="card img-fluid" style="width: 18rem;"></div>
-						<div class="cardContent">
-							<h1>Learn Hiragana</h1>
-							<p class="card-text">The first step to learn Japanese</p>
-							<a href="hiragana.html" class="btn btn-dark">Start Learning</a>
-						</div>
-				</div>
-			</div>
-
-				<div class="col-12 col-sm-12 col-md-12 col-lg-4 percard">
-					<div class="learn m-auto text-white">
-						<div class="card1 img-fluid" style="width: 18rem;"></div>
-						<div class="cardContent">
-							<h1>Learn Katakana</h1>
-							<p class="card-text">Convert those foreign words into Japanese now!</p>
-							<a href="katakana.html" class="btn btn-dark">Start Learning</a>
-						</div>
-					</div>
-				</div>
-			
-
-			<div class="col-12 col-sm-12 col-md-12 col-lg-4 percard kanji">
-				<div class="learn m-auto text-white">
-					<div class="card2 img-fluid" style="width: 18rem;"></div>
-						<div class="cardContent">
-						<h1>Learn Kanji	</h1>
-						<p class="card-text">A single word has its own meaning.</p>
-						<a href="kanji.html" class="btn btn-dark">Start Learning</a>
-					</div>
-				</div>
-
+			<div class=" col-12 col-md-6 contactText">
+				<p class="font">Please help us to continually improve and develop our services by giving us feedback. </p>
 			</div>	
+
+			<div class="col-12 col-md-6">
+				<div class="comment">
+				  <form>
+
+				    <label for="fname">First Name:</label>
+				    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+				    <label for="lname">Last Name:</label>
+				    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+				    <label for="email"> Email:</label>
+				    <input type="email" id="email" name="email" placeholder="Your Email Address..">
+
+				    <label for="country">Country</label>
+				    <select id="country" name="country">
+				      <option>Philippines</option>
+				      <option>Canada</option>
+				      <option>USA</option>
+				    </select>
+
+				    <label for="subject">Your comment and suggestions</label>
+				    <textarea id="subject" name="subject" placeholder="Write something.." ></textarea>
+
+				    <input type="submit" value="Submit">
+
+				  </form>
+				</div>
+
+			</div>
+
+
 		</div>
+
 	</div>
 
+	
+		
+	</div><!-- end container -->
 
 	<div class="container-fluid">
 		<div class="row color">
@@ -130,17 +121,6 @@
 			</div>
 		</div>
 	</div>
-
-
-
-</body>
-
-
-
-
-
-	
-
 
 
 
