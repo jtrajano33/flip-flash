@@ -7,14 +7,28 @@ nav{
 	background-color: black;
 }
 
+a.active {
+	color: red;
+	background: radial-gradient(circle, rgba(255, 0, 0, 0.5), maroon, rgba(0, 0, 0, 1));
+	border-radius: 10px;
+}
 
 
 body{
 	background-image: url("../../assets/images/bg2.jpg");
 	background-repeat: no-repeat;
-/*	background-size: cover;*/
 	height: 100%;
 	width: 100%;
+	max-width: 100vw;
+	max-height: 100px;
+}
+
+h1{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.titleFont{
+	font-size: 60px;
 }
 
 #pad{
@@ -30,7 +44,6 @@ body{
 	padding-right: 0;
 	height: 100vh;
 	width: 100vw;
-
 }
 
 .percard{
@@ -73,7 +86,6 @@ footer{
 	position: fixed;
 	z-index: 1;
 	width: 100%;
-
 }
 
 .nav-item{
@@ -91,13 +103,13 @@ footer{
 }
 
 .card {
-    width: 130px;
     height: 300px;
     background: url("../../assets/images/hiraganaselect1.png") no-repeat;
     display: inline-block;
     background-size: cover;
     margin-top: 20px;
     border-radius: 20px;
+    width: 18rem;
 }
 
 .card:hover {
@@ -106,13 +118,13 @@ footer{
 }
 
 .card1 {
-    width: 130px;
     height: 300px;
     background: url("../../assets/images/katakanaselect1.png") no-repeat;
     display: inline-block;
     background-size: cover;
     margin-top: 20px;
     border-radius: 20px;
+    width: 18rem;
 }
 
 .card1:hover {
@@ -121,13 +133,13 @@ footer{
 }
 
 .card2 {
-    width: 130px;
     height: 300px;
     background: url("../../assets/images/kanjiselect1.png") no-repeat;
     display: inline-block;
     background-size: cover;
     margin-top: 20px;
     border-radius: 20px;
+    width: 18rem;
 
 }
 
@@ -137,7 +149,6 @@ footer{
 }
 
 .learn{
-/*	border: 1.5px solid black;*/
 	border-radius: 20px;
 	background: radial-gradient(circle, rgba(255, 0, 0, 0.5), maroon, rgba(0, 0, 0, 1));
 	height: auto;
@@ -152,6 +163,7 @@ footer{
 
 #logo{
 	font-size: 50px;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 
@@ -159,6 +171,7 @@ footer{
 
 .super{
 	padding-top: 200px;
+	padding-bottom: 100px;
 
 }
 
@@ -198,6 +211,8 @@ footer{
 .back{
 	transform: rotateY(180deg);
 	font-family: 'Numans', sans-serif;
+	line-height: 20px;
+    padding-top: 50px;
 }
 
 .whole{
@@ -206,11 +221,6 @@ footer{
 	margin: auto;
 }
 
-/*.scroll{
-	overflow: scroll;
-	height: 690px;
-}
-*/
 
 .row1:hover .hello,
 .row2:hover .hello,
@@ -423,6 +433,7 @@ textarea{
 
 	.super{
 	padding-top: 100px;
+	padding-bottom: 70px;
 	}
 
 
@@ -430,6 +441,8 @@ textarea{
 	transform: rotateY(180deg);
 	font-family: 'Numans', sans-serif;
 	font-size: 10px;
+	line-height: 0px;
+    padding-top: 15px;
 
 	}
 
@@ -624,7 +637,8 @@ input[type=submit]:hover {
 
 
 	.percard{
-		margin-top: 10px;
+	margin-top: 10px;
+	margin-bottom: 0em;
 	}
 
 	p{
@@ -639,6 +653,7 @@ input[type=submit]:hover {
 
 	.learn{
 		height: 345px;
+		border: 2px solid black;
 	}
 
 	.cardContent {
@@ -649,6 +664,7 @@ input[type=submit]:hover {
 
 	.hiragana {
     margin-top: 15px;
+    margin-bottom: 75px;
 	}
 
 	.card,
@@ -660,16 +676,13 @@ input[type=submit]:hover {
 	.whole{
 		perspective:700;
 		width: 98px;
-		/*margin: auto;*/
 		}
 
 	.box{
 		color: white;
 		text-align: center;
-		/*line-height: 50px;*/
 		width: 98px;
 		height: 98px;
-		/*margin-top: 15px;*/
 		transition: all 0.6s ease;
 		transform-style: preserve-3d;
 		position: relative;
@@ -686,21 +699,20 @@ input[type=submit]:hover {
 		left: 0;
 		backface-visibility: hidden;
 		line-height: 50px;
-		/*border: 2px solid black;*/
-		/*border-radius: 5px;*/
 	}
 
 	.super{
 	padding-top: 100px;
+	padding-bottom: 100px;
 	}
 
 
 	.back{
 	transform: rotateY(180deg);
 	font-family: 'Numans', sans-serif;
-	font-size: 10px;
-	line-height: 20px;
-	padding:8px 5px;
+	font-size: 11px;
+	line-height: 5px;
+	padding:18px 5px;
 
 	}
 
@@ -742,11 +754,7 @@ input[type=submit]:hover {
 	color: #fff;
 	background-color: #000;
 	margin-left: 10vh;
-	/*margin-left: 10px;*/
-	/*margin-right: 10px;*/
 	padding: 5px 5px;
-/*	letter-spacing: 5px;
-	word-spacing: 10px;*/
 	border-radius: 30px;
 
 	}
@@ -814,13 +822,11 @@ input[type=submit]:hover {
     margin-right: 0%;
 	}
 
-/*	.row{
-		margin-right: -36px;
-	}*/
-
 
 }
 
 /*Large devices*/
-@media only screen (min-width: 770px) and (max-width: 992px){
+/*@media only screen (min-width: 770px) and (max-width: 992px){*/
+@media only screen (min-width: 1023px) and (max-width: 1366px){
+
  }
